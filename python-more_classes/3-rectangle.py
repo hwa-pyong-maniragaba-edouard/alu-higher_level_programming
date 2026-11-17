@@ -1,5 +1,9 @@
 #!/usr/bin/python3
-"""Defines a class Rectangle."""
+"""Module that defines a Rectangle class.
+
+The Rectangle class has a validated width and height, and can compute
+its area and perimeter and print itself with the character #.
+"""
 
 
 class Rectangle:
@@ -52,4 +56,4 @@ class Rectangle:
         """Return the rectangle printed with the character #."""
         if self.__width == 0 or self.__height == 0:
             return ""
-        return "\n".join(["#" * self.__width] * self.__height)`
+        return "\n".join(["#" * self.__width] * self.__height)
