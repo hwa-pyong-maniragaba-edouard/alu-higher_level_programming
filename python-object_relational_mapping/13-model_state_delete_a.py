@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Module that deletes all State objects with a name containing the letter a."""
+"""Deletes all State objects whose name contains the letter a."""
 import sys
 
 from model_state import Base, State
