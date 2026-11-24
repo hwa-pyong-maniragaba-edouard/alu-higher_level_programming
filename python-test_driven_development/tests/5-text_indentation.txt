@@ -39,7 +39,7 @@ World
 
 Consecutive delimiters:
 
->>> text_indentation("What?? Really."); print()
+>>> text_indentation("What?? Really.")
 What?
 <BLANKLINE>
 ?
